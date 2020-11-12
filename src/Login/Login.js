@@ -1,22 +1,24 @@
-import './styles.scss';
 import {
-  Input, 
-  Button
-} from 'reactstrap';
-
+       Container,
+       Button,
+       Description,
+       Title,
+       ContainerInput,
+       Input
+}from './styled';
 
 function Login() {
   return (
-    <div className = "container">
-      <div className = "container-input">
-        <span className = "title">Entrar</span>
-        <h2 className = "title">E-mail</h2>
-          <Input className = "input"></Input>
-        <span className = "title">Senha</span>
-          <Input className = "input"></Input>
-          <Button color="primary" size="lg" active>Salvar</Button>
-      </div> 
-      </div>
+    <Container>
+      <ContainerInput>
+        <Title>Entrar</Title>
+          <Description>E-mail</Description>
+            <Input className = "input"></Input>
+          <Description>Senha</Description>
+            <Input className = "input"></Input>
+            <Button>Salvar</Button>
+      </ContainerInput> 
+    </Container>
   );
 }
 
