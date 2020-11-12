@@ -5,7 +5,7 @@ import {
        Title,
        ContainerInput,
        Input
-}from './styled';
+}from './styles';
 
 function Login() {
   return (
