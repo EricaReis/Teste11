@@ -7,9 +7,15 @@ export const Button = styled.button`
     color: white;
     font-size: 1rem;
     margin: auto;
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 1rem;
     display: flex;
     margin-top: 25px;
+`;
+export const ContainerButton = styled.div`
+    align-self: center;
+    justify-content: center;
+    position:  relative; 
+    display:flex;
 `;
 export const Container = styled.div`
     position: absolute;

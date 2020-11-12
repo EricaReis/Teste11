@@ -4,7 +4,8 @@ import {
   Description,
   Title,
   ContainerInput,
-  Input
+  Input, 
+  ContainerButton
 }from './styles';
 
 function Register() {
@@ -18,7 +19,10 @@ return (
        <Input className = "input"></Input>
      <Description>Senha</Description>
        <Input className = "input"></Input>
-       <Button>Salvar</Button>
+      <ContainerButton>
+        <Button>Cadastrar</Button>
+        <Button>Voltar</Button>  
+      </ContainerButton>
  </ContainerInput> 
 </Container>
 );
