@@ -45,3 +45,14 @@ export const Button = styled.button`
     display: flex;
     margin-top: 25px;
 `;
+export const ContainerInput = styled.div`
+    align-self: center;
+    justify-content: center;
+    position:  relative;
+`;
+export const ContainerButton = styled.div`
+    align-self: center;
+    justify-content: center;
+    position:  relative; 
+    display:flex;
+`;

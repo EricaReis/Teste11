@@ -9,7 +9,7 @@ export const Button = styled.button`
     margin: auto;
     padding: 0.5rem 1rem;
     display: flex;
-    margin-top: 25px;
+    margin-top: 15px;
 `;
 export const ContainerButton = styled.div`
     align-self: center;

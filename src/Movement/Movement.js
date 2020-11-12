@@ -1,3 +1,8 @@
+import React from 'react';
+import {
+  Card, 
+  CardBody
+} from 'reactstrap';
 import {
   Container,
   Button,
@@ -14,18 +19,20 @@ return (
   <Container>
     <ContainerItems>
     <Title>Movimentações</Title>
+    <ContainerInput>
       <Description>Descrição</Description>
     <Input></Input>
       <Description>Valor</Description>
     <Input></Input>
-    <select name="cars" id="cars">
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="mercedes">Mercedes</option>
-      <option value="audi">Audi</option>
+    <select name="select" id="select">
+      <option value="01">select 01</option>
+      <option value="02">select 02</option>
     </select>
-    <Button>Cadastrar</Button>
-    <Button>Relatório</Button>
+    </ContainerInput>
+    <ContainerButton>
+      <Button>Cadastrar</Button>
+      <Button>Relatório</Button>
+    </ContainerButton>
     </ContainerItems>
   </Container>
 );
