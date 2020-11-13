@@ -7,8 +7,7 @@ import {
   Input,
   Button,
   Row,
-  Col,
-  Card,
+  Col
 } from "reactstrap";
 import {
   Container,
@@ -30,7 +29,6 @@ function Movement() {
       <Container>
         <ContainerItems>
           <Title>Movimentações</Title>
-          <Card />
           <ContainerInput>
             <Description>Descrição</Description>
             <Input></Input>

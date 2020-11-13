@@ -33,8 +33,7 @@ export const Input = styled.input`
     height: 20px;
     width: 90%;
     border: solid 2px rgb(1, 18, 22);
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 5px;
     background-color: white;
     border-radius: 5px;
 `;

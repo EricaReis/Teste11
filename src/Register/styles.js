@@ -36,6 +36,7 @@ export const Description = styled.text`
     margin-left: 3%;
     margin-right: auto;
     display: flex;
+    margin-bottom: 3px;
 `;
 export const Title = styled.h1`
     color: white;
