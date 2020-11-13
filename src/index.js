@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <>
-    <Register></Register>
+    <Movement></Movement>
   </>,
   document.getElementById('root')
 );

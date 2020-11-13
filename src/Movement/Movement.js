@@ -7,7 +7,8 @@ import {
   Input,
   Button,
   Row,
-  Col
+  Col,
+  Card
 } from "reactstrap";
 import {
   Container,
@@ -17,14 +18,19 @@ import {
   ContainerButton,
   ContainerItems,
 } from "./styles";
+import Header from '.././components/Header/Header'
 
 function Movement() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const toggle = () => setDropdownOpen((prevState) => !prevState);
   return (
+    <>
+      <Header></Header>
     <Container>
       <ContainerItems>
         <Title>Movimentações</Title>
+          <Card>
+          </Card>
         <ContainerInput>
           <Description>Descrição</Description>
           <Input></Input>
@@ -53,6 +59,7 @@ function Movement() {
         </ContainerButton>
       </ContainerItems>
     </Container>
+    </>
   );
 }
 

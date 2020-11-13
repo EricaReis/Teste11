@@ -53,3 +53,10 @@ export const ContainerButton = styled.div`
     display: flex;
     margin-top: 30px;
 `;
+export const Header = styled.div`
+    color: black
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%
+`;
