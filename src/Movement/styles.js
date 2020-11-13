@@ -19,7 +19,7 @@ export const Title = styled.h1`
     color: white;
     margin-left: auto;
     margin-right: auto;
-    width: 4em
+    width: 7em
 `;
 export const Description = styled.text`
     color: white;
@@ -28,9 +28,7 @@ export const Description = styled.text`
     display: flex;
 `;
 export const ContainerItems = styled.div` 
-    align-self: center;
-    justify-content: center;
-    position:  relative;
+    position:  fixed;
     padding-left: 30%;
     padding-right: 30%; 
 `;
@@ -51,8 +49,7 @@ export const ContainerInput = styled.div`
     position:  relative;
 `;
 export const ContainerButton = styled.div`
-    align-self: center;
-    justify-content: center;
     position:  relative; 
-    display:flex;
+    display: flex;
+    margin-top: 30px;
 `;

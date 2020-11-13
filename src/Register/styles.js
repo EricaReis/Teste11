@@ -12,7 +12,7 @@ export const Button = styled.button`
     margin-top: 15px;
 `;
 export const ContainerButton = styled.div`
-    align-self: center;
+    margin-top: 30px;
     justify-content: center;
     position:  relative; 
     display:flex;
@@ -40,7 +40,7 @@ export const Title = styled.h1`
     color: white;
     margin-left: auto;
     margin-right: auto;
-    width: 4em
+    width: 4.5em;
 `;
 export const Input = styled.input`
     color: white;

@@ -1,16 +1,5 @@
 import styled from "styled-components";
 
-export const Button = styled.button`
-    background: rgb(22, 53, 71);
-    border: 2px solid rgb(22, 53, 71);
-    border-radius: 3px;
-    color: white;
-    font-size: 1rem;
-    margin: auto;
-    padding: 0.5rem 4rem;
-    display: flex;
-    margin-top: 25px;
-`;
 export const Container = styled.div`
     position: absolute;
     height: 100%;
@@ -22,13 +11,14 @@ export const ContainerInput = styled.div`
     justify-content: center;
     position:  relative;
     padding-left: 30%;
-    padding-right: 30%; 
+    padding-right: 30%;
 `;
 export const Description = styled.text`
     color: white;
     margin-left: 3%;
     margin-right: auto;
     display: flex;
+    margin-bottom: 3px;
 `;
 export const Title = styled.h1`
     color: white;
@@ -45,4 +35,9 @@ export const Input = styled.input`
     margin-bottom: 20px;
     background-color: white;
     border-radius: 5px;
+`;
+export const ContainerButton = styled.div`
+    position: relative; 
+    display: flex;
+    margin-top: 30px;
 `;

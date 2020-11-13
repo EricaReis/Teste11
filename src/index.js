@@ -4,10 +4,12 @@ import './index.css';
 import Login from './Login/Login.js';
 import Register from './Register/Register.js';
 import Movement from './Movement/Movement.js';
+import Example from './example.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <>
-    <Movement></Movement>
+    <Register></Register>
   </>,
   document.getElementById('root')
 );
