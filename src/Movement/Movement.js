@@ -25,12 +25,11 @@ function Movement() {
   const toggle = () => setDropdownOpen((prevState) => !prevState);
   return (
     <>
-      <Header></Header>
+      <Header/>
     <Container>
       <ContainerItems>
         <Title>Movimentações</Title>
-          <Card>
-          </Card>
+          <Card/>
         <ContainerInput>
           <Description>Descrição</Description>
           <Input></Input>
