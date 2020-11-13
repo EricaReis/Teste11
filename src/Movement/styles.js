@@ -29,6 +29,7 @@ export const Description = styled.text`
 `;
 export const ContainerItems = styled.div` 
     position:  fixed;
+    width: inherit;
     padding-left: 30%;
     padding-right: 30%; 
 `;
@@ -51,6 +52,7 @@ export const ContainerInput = styled.div`
 export const ContainerButton = styled.div`
     position:  relative; 
     display: flex;
+    width: inherit;
     margin-top: 30px;
 `;
 export const Header = styled.div`

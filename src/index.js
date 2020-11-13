@@ -6,10 +6,17 @@ import Register from './Register/Register.js';
 import Movement from './Movement/Movement.js';
 import Example from './example.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 ReactDOM.render(
-  <>
-    <Movement></Movement>
-  </>,
+  (
+  <Router>
+     <Switch>
+                    <Route exact path="/" component={Login}/>
+                    <Route path="/register" component={Register}/>
+                    <Route path="/movement" component={Movement}/>
+      </Switch>
+      </Router>
+  ),
   document.getElementById('root')
 );
