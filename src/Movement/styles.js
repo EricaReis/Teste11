@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Input = styled.input`
     color: white;
@@ -28,7 +29,7 @@ export const Description = styled.text`
     display: flex;
 `;
 export const ContainerItems = styled.div` 
-    position:  fixed;
+    position: fixed;
     width: inherit;
     padding-left: 30%;
     padding-right: 30%; 

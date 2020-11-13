@@ -39,9 +39,10 @@ export const Input = styled.input`
     border-radius: 5px;
 `;
 export const ContainerButton = styled.div`
-    position: relative; 
-    display: flex;
     margin-top: 30px;
+    justify-content: center;
+    position: relative; 
+    display:flex;
 `;
 export const Button = styled(Link)`
     background: rgb(22, 53, 71);
