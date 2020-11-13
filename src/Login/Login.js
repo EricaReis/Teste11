@@ -10,7 +10,7 @@ import {
   ContainerButton,
 } from "./styles";
 import Header from ".././components/Header/Header";
-import Register from "../Register/Register"
+import Register from "../Register/Register";
 
 function Login() {
   return (
@@ -25,7 +25,9 @@ function Login() {
             <Description>Senha</Description>
             <Input className="input"></Input>
             <ContainerButton>
-              <Button color="info"> Entrar 
+              <Button color="info">
+                Cadastrar
+                <Link to="/register" />
               </Button>
             </ContainerButton>
           </Row>
