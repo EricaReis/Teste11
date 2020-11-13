@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-export const Button = styled.button`
+export const Button = styled(Link)`
     background: rgb(22, 53, 71);
     border: 2px solid rgb(22, 53, 71);
     border-radius: 3px;
@@ -9,7 +10,7 @@ export const Button = styled.button`
     margin: auto;
     padding: 0.5rem 1rem;
     display: flex;
-    margin-top: 15px;
+    margin-top: 25px;
 `;
 export const ContainerButton = styled.div`
     margin-top: 30px;

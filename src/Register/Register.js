@@ -1,9 +1,10 @@
 import React from "react";
-import { Input, Button, Row, Col } from "reactstrap";
+import { Input, Row, Col } from "reactstrap";
 import {
   Container,
   Description,
   Title,
+  Button,
   ContainerInput,
   ContainerButton,
 } from "./styles";
@@ -28,7 +29,7 @@ function Register() {
                 <Button color="info">Cadastrar</Button>
               </Col>
               <Col>
-                <Button color="info">Voltar</Button>
+              <Button className="button" to="/">Voltar</Button>
               </Col>
             </Row>
           </ContainerButton>

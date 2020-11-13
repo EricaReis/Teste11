@@ -1,6 +1,5 @@
 import React from "react";
-import { Input, Button, Row } from "reactstrap";
-import { Link } from "react-router-dom";
+import { Input, Row } from "reactstrap";
 
 import {
   Container,
@@ -8,9 +7,9 @@ import {
   Title,
   ContainerInput,
   ContainerButton,
+  Button
 } from "./styles";
 import Header from ".././components/Header/Header";
-import Register from "../Register/Register";
 
 function Login() {
   return (
@@ -25,10 +24,8 @@ function Login() {
             <Description>Senha</Description>
             <Input className="input"></Input>
             <ContainerButton>
-              <Button color="info">
-                Cadastrar
-                <Link to="/register" />
-              </Button>
+                <Button className="button" to="/movement">Entrar</Button>
+                <Button to="/register">Cadastrar</Button>
             </ContainerButton>
           </Row>
         </ContainerInput>
