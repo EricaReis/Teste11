@@ -7,13 +7,14 @@ export const Container = styled.div`
     height: 100%;
     width: 100%;
     background-color: rgb(41, 17, 73);
+    padding: 10px;
 `;
 export const ContainerInput = styled.div`
     align-self: center;
     justify-content: center;
     position:  relative;
-    padding-left: 30%;
-    padding-right: 30%;
+    max-width: 600px;
+    margin: auto;
 `;
 export const Description = styled.text`
     color: white;
@@ -24,9 +25,8 @@ export const Description = styled.text`
 `;
 export const Title = styled.h1`
     color: white;
-    margin-left: auto;
-    margin-right: auto;
-    width: 4em
+    margin: auto;
+    text-align: center;
 `;
 export const Input = styled.input`
     color: white;
@@ -39,9 +39,9 @@ export const Input = styled.input`
 `;
 export const ContainerButton = styled.div`
     margin-top: 30px;
-    justify-content: center;
+    justify-content: space-between;
     position: relative; 
-    display:flex;
+    display: flex;
 `;
 export const Button = styled(Link)`
     background: rgb(22, 53, 71);
@@ -49,7 +49,6 @@ export const Button = styled(Link)`
     border-radius: 3px;
     color: white;
     font-size: 1rem;
-    margin: auto;
     padding: 0.5rem 1rem;
     display: flex;
     margin-top: 25px;

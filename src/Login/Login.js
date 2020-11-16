@@ -17,8 +17,8 @@ function Login() {
       <Header />
       <Container>
         <ContainerInput>
+          <Container>
           <Title>Entrar</Title>
-          <Row>
             <Description>E-mail</Description>
             <Input className="input"></Input>
             <Description>Senha</Description>
@@ -27,7 +27,7 @@ function Login() {
                 <Button className="button" to="/movement">Entrar</Button>
                 <Button to="/register">Cadastrar</Button>
             </ContainerButton>
-          </Row>
+          </Container>
         </ContainerInput>
       </Container>
     </>
